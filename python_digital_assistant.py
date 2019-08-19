@@ -48,6 +48,7 @@ def greetMe():
 
 class Widget:
     def __init__(self):
+       #this is the GUI part,here I've added my background pic for the app and its dimensions according.you can have your own.
        root = Tk()
        root.title('PANDA')
        root.config(background='Red')
